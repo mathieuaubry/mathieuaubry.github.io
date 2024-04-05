@@ -1,5 +1,6 @@
 ---
-title: Home
+layout: Page
+title: DISCOVER
 ---
 
 ## Welcome to the test site
