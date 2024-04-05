@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "My Test"
-description: "Test descriton"
+title: Home
 ---
 
-Welcome to Test
+## Welcome to the test site
+
+This site is simple.
