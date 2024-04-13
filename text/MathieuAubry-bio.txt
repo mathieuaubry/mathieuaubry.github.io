@@ -1,0 +1,4 @@
+Mathieu Aubry is a tenured researcher in Computer Vision at École des Ponts ParisTech in the LIGM lab (UMR8049).  He obtained his PhD at ENS in 2015, co-advised by Josef Sivic (INRIA) and Daniel Cremers (TUM). In 2015, he spent a year working as a postdoc with Alexei Efros in UC Berkeley. He has a leading role in the ANR EnHerit, VHS and EIDA projects and the ERC DISCOVER project on interpretable visual structures discovery.
+
+
+He was area chair (AC) for CVPR (2018, 2020, 2023), ICCV (2023), NeurIPS (2023), MVA (2021), BMVC (2021, 2023), ACCV (2021, 2022). He was in the award comitee for CVPR2022 and amongst the top rated reviewers for CVPR19, NeurIPS19 and ECCV 2022. He was associated edidor for CVIU from 2021 to 2023.

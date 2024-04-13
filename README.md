@@ -1,0 +1,1 @@
+This is the source code to Mathieu Aubry's public academic website, dderived from Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.

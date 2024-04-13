@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>DISCOVER</title>
+    <title>Mathieu Aubry</title>
 
 
     <meta name="author" content="Mathieu Aubry">
@@ -19,109 +19,1041 @@
     <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr style="padding:0px">
-
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p style="text-align:center">
-                    <name>DISCOVER</name>
+                    <name>Mathieu Aubry</name>
                     <br>
-                    <subtitle> Discovering and Analyzing Visual Structures</subtitle>
-
+                    <subtitle> <a href="text/domination.html" target="_blank"> He/Him - They/Them </a></subtitle>
+                <p>I am a senior researcher in the <a href="http://imagine.enpc.fr/" target="_blank">Imagine
+                    team</a> of the <a href="http://ligm.u-pem.fr/" title="Visit the web page"
+                                       target="_blank">LIGM lab</a> at <a href="https://www.ecoledesponts.fr/en" title="Visit the web page"
+                                                                          target="_blank">&Eacute;cole des Ponts ParisTech (ENPC)</a>.
+                </p>
+                <p>
+                    I am interested in computer vision with a focus on unsupervised image collection analysis (ERC DISCOVER), and applications to historical data (also <a href="https://vhs.hypotheses.org/" target="_blank"> ANR VHS </a> and <a href="https://eida.hypotheses.org/" target="_blank"> ANR EIDA </a>) and Earth imagery analysis. To get an overview of my research, you can look at the <a href="https://enherit.enpc.fr/" target="_blank"> ANR EnHerit </a> website (2017-2023).
+                </p>
+                <p>
+                    If you are interested in working with me for M2/PhD (<a href="https://docs.google.com/document/d/1RMtM4cssOoAEvCUdFj4dYzJJvy9HGRxOmPUEIHeQNYk/edit?usp=sharing" target="_blank"> 2023 internship offers</a> ), <a href="https://imagine-lab.enpc.fr/wp-content/uploads/Research-Engineer-Web-Development-and-Computer-Vision.pdf" target="_blank">research engineer </a> or <a href="https://imagine-lab.enpc.fr/jobs/#:~:text=Post%2DDoctoral%20position%20Computer%20Vision%20and%20Historical%20data" target="_blank">postoc </a>  positions, please apply throught <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoUGUD6tvs3YSvWtEJkoS2z4i-GHMBxv1uzbLU5XKEWzBedg/viewform?usp=sf_link"> this form </a> (I will not answer e-mail applications).
                 </p>
 
-
+                </p>
+                <p style="text-align:center">
+                    <a href="https://imagine-lab.enpc.fr/" target="_blank">Imagine</a> &nbsp/&nbsp
+                    <a href="mailto:mathieu.aubry.2006@polytechnique.org">Email</a> &nbsp/&nbsp
+                    <a href="text/CV_Aubry_Mathieu.pdf" target="_blank">CV</a> &nbsp/&nbsp
+                    <a href="text/MathieuAubry-bio.txt" target="_blank">Bio</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.fr/citations?user=0MiPsosAAAAJ&hl=fr">Google Scholar</a>
+                </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+                <a href="img/Mathieu_Aubry_2022.JPG"><img style="width:100%;max-width:100%" alt="profile photo" src="img/Mathieu_Aubry_2022.JPG" class="hoverZoomLink circle-container"></a>
+            </td>
         </tr>
         </tbody></table>
         <table  class="toc">
             <tr class="toc">
                 <!--            <td style="padding:20px;width:100%;vertical-align:middle">-->
-                <th class="toc" ><a class="toc" href="index.html">Project</a></th>
-                <th class="toc" ><a  class="toc" href="visual-structures.html">Visual Structures</a></th>
-                <th class="toc" ><a class="toc" href="history.html">History</a></th>
-                <th class="toc" ><a class="toc" href="earth.html">Earth</a></th>
-<!--                <th class="toc" ><a class="toc" href="#opinions">People</a></th>-->
-<!--                            </td>-->
+                <th class="toc" ><a  class="toc" href="#students">Group</a></th>
+                <th class="toc" ><a class="toc" href="#pub">Publications</a></th>
+                <th class="toc" ><a class="toc" href="#teaching">Teaching</a></th>
+                <th class="toc" ><a class="toc" href="#opinions">Opinions</a></th>
+                <!--            </td>-->
             </tr>
         </table>
 
-                <p style="text-align:center">
-                    <a href="#goals" target="_blank">Goal</a> &nbsp|&nbsp
-                    <a href="">People</a> &nbsp|&nbsp
-                    <a href="" target="_blank">Job offers</a> &nbsp|&nbsp
-                    <a href="" target="_blank">Presentations</a>
-                </p>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-                <p> DISCOVER is an ERC funded project (starting grant 101076028).</p>
-                <a class="anchor-point" id="goals"></a>
-                <heading>Goal</heading>
+                <a class="anchor-point" id="students"></a>
+                <heading>Group</heading>
                 <p>
-                   Our goal is to develop approaches to assist experts in identifying and analyzing patterns. Indeed, while the success of deep learning on visual data is undeniable, applications are often limited to the supervised learning scenario where the algorithm tries to infer a label for a new image based on the annotations made by experts in a reference
-dataset. In contrast, we want to take as input images without any annotation, automatically
-identify consistent patterns and model their variation and evolution, so that an expert can
-more easily analyze them.</p>
-                <p>
-
-The concept we will develop is the one of <a href="visual-structures.html">visual structures</a>. Their key features will be their
-interpretability, in terms of correspondences, deformations, or properties of the observed
-images, and their ability to incorporate prior knowledge about the data and expert feedback.
-It will explore two complementary approaches to formally define and identify visual
-structures: one based on analyzing correspondences, the other on learning interpretable
-image models.</p>
-                <p>
-
-We will develop visual structures in two domains: <a class="toc" href="history.html">historical documents</a> and <a class="toc" href="earth.html">Earth imagery</a>.
-For example, from temporal series of Earth images, we want to identify types of
-moving objects, areas with different types of vegetation or constructions, and model the
-evolution of their characteristics, which may correspond to changes in their activity or life
-cycle. Ultimately, experts will still be needed to select relevant visual structures and perform
-analysis, requiring to work closely with them, to design relevant features in our algorithms
-and adapted interfaces for interaction.
-                  </p>
-
-                <a class="anchor-point" id="people"></a>
-                <heading>People</heading>
-
-                <p> Current collaborators:</p>
+                    Current PhD students:
                 <ul>
                     <!--        <li></li>-->
 <!--                    <li>Hongyu Zhou (with Lo&#xEF;c Landrieu) -> we couldn't hire Hongyu last minute because of %$#?@! reasons, don't hesitate to contact him or us if you are looking for a PhD student, he will be at ICCV</li>-->
-                    <li><a href="https://imagine.enpc.fr/~aubrym/">Mathieu Aubry (PI)</a></li>
-                    <li><a href="" target="_blank">Raphaël Baena</a>  (post-doc in the <a href="https://eida.hypotheses.org/">EIDA</a> and <a href="https://vhs.hypotheses.org/">VHS</a> projects)</li>
-                    <li><a href="" target="_blank">Ségolène Albouy</a>  (RSE in DISCOVER)</li>
-                <li>Syrine Kalleli (PhD student, working on DISCOVER and the <a href="https://eida.hypotheses.org/">EIDA</a> projects)</li>
-                    <li><a href="https://imagine-lab.enpc.fr/staff-members/sonat-baltaci/" target="_blank">Sonat Baltaci (PhD student, working on DISCOVER and the <a href="https://vhs.hypotheses.org/">VHS</a> projects)</a></li>
-                    <li><a href="https://www.researchgate.net/profile/Malamatenia-Vlachou-Efstathiou" target="_blank"> Malamatenia Vlachou Efstathiou; </a>(PhD student in History with Dominique Stuzmann at IRHT, funded by CNRS)</li>
-                    <li><a href="http://imagine.enpc.fr/~siglidii/" target="_blank">Ioannis Siglidis (PhD student)</a></li>
-                    <li><a href="http://imagine.enpc.fr/~vincente/" target="_blank">Elliot Vincent</a> (PhD student with Jean Ponce at INRIA/ENS)</li>
-                    <li><a href="https://www.robin-champenois.fr/en.html" target="_blank">Robin Champenois </a>(PhD student at ENS in Art with B&eacute;atrice Joyeux-Prunel)</li>
+                    <li>Syrine Kalleli</li>
+                    <li><a href="https://imagine-lab.enpc.fr/staff-members/sonat-baltaci/" target="_blank">Sonat Baltaci</a></li>
+                    <li><a href="https://www.researchgate.net/profile/Malamatenia-Vlachou-Efstathiou" target="_blank"> Malamatenia Vlachou Efstathiou; </a>(in History with Dominique Stuzmann at IRHT)</li>
+                    <li><a href="http://imagine.enpc.fr/~siglidii/" target="_blank">Ioannis Siglidis</a></li>
+                    <li><a href="http://imagine.enpc.fr/~vincente/" target="_blank">Elliot Vincent</a> (with Jean Ponce at INRIA/ENS)</li>
+                    <li><a href="https://www.robin-champenois.fr/en.html" target="_blank">Robin Champenois </a>(at ENS in Art with B&eacute;atrice Joyeux-Prunel)</li>
                     <!--       <li><a href="" target="_blank">Mathis Petrovich </a>(with Gul Varol and Michael J. Black)</li> -->
                 </ul>
 
 
-                <p> Past collaborators</p>
-                <ul>     <li><a href="https://romainloiseau.fr/" target="_blank">Romain Loiseau </a>(PhD student with Lo&#xEF;c Landrieu, now at the finance ministry)</li>
-                    <li> <a href="http://imagine.enpc.fr/~monniert/" target="_blank">Tom Monnier </a> (PhD student, now at Meta)</li>
+                <p>  Current Post-doc: <a href="" target="_blank">Raphaël Baena</a>   </p>
+                <p>  Current RSE: <a href="" target="_blank">Ségolène Albouy</a>   </p>
+
+                Graduated PhD students:
+                <ul>
+                    <!--        <li></li>-->
+                    <li><a href="https://github.com/fmassa" target="_blank">Francisco Massa</a> (with Renaud Marlet, now at Meta)</li>
+                    <li>Vianney Loing (in Mechnaical Engineering, with Jean-Fran&ccedil;ois Caron, Olivier Baverel and Renaud Marlet, now at <a href="https://arcure.net/" target="_blank">Arcure</a>)</li>
+                    <li>Th&eacute;ophile Dalens (at INRIA/ENS with Josef Sivic, now at Grabango)</li>
+                    <li><a href="http://imagine.enpc.fr/~groueixt/" target="_blank">Thibault Groueix</a> (now at Adobe research)</li>
+                    <li><a href="http://imagine.enpc.fr/~sbaio/" target="_blank">Othman Sba&iuml;</a> (in CIFRE at FAIR with Camille Couprie, now at Meta)</li>
+                    <li><a href="http://imagine.enpc.fr/~shenx/" target="_blank">Xi Shen</a> (now at Tecent research)</li>
+                    <li><a href="http://imagine.enpc.fr/~darmonf" target="_blank"> Francois Darmon </a>(with Pascal Monasse, transitioning to Meta)</li>
+                    <li><a href="https://theodeprelle.github.io/" target="_blank">Th&eacute;o Deprelle</a> (now at Veesual)</li>
+                    <li> <a href="http://imagine.enpc.fr/~roburins/" target="_blank">Simon Roburin</a> (in CIFRE at Valeo AI with Patrick Perez and Renaud Marlet, now post-doc at EPFL)</li>
+                    <li><a href="https://ylabbe.github.io/" target="_blank"> Yann Labb&eacute; </a>(at INRIA/ENS with Josef Sivic and Justin Caprentier, now at Meta)</li>
+                    <li><a href="https://romainloiseau.fr/" target="_blank">Romain Loiseau </a>(with Lo&#xEF;c Landrieu, now at the finance ministry)</li>
+                    <li> <a href="http://imagine.enpc.fr/~monniert/" target="_blank">Tom Monnier </a> (now at Meta)</li>
                 </ul>
 
-                <a class="anchor-point" id="jobs"></a>
-                <heading>Job offers</heading>
 
-                <p>We have positions for M2/PhD, research engineer and postdoc. Please fill this form if you are interested.</p>
-
-                <a class="anchor-point" id="presentations"></a>
-                <heading>Selected presentations</heading>
-
-                <p>
-                    <ul>
-                <li>  Symposium on Advances in applied mathematics and learning approaches for cultural heritage and the arts, April 22-24th, 2024 , Cagliari, Italy, invited presentation on Analysis-by-synthesis for History (<a href="">slides</a>, <a href="https://bugs.unica.it/amalart24/"> website</a>)</li>
-                <li> Workshop on Computing the Early Modern Printed Page, invited presentation on Interpretable computer vision analysis of historical prints (<a href="">slides</a>, <a href="https://drive.google.com/file/d/1BOMGJvMjWIHLEHTyTVEx_gWoX-zhn3A6/view?usp=sharing"> program</a>) </li>
-                <li>  Big Historical data conference, Nov 22-25th, 2023, Jena, Germany. Remote presentation on Discovering and analyzing visual patterns in historical image databases (<a href="https://drive.google.com/file/d/1PslnpamI1fRqvp1Ly0Du2-j8iU_kvedp/view?usp=sharing">slides</a>, <a href="https://bhdc.earth/"> website</a>)</li>
-
-                <li>  Conference on artificIAl Intelligence and applied MAthematics for History and Archaeology, Nov 27-28th, 2023, Nice, France. Keynote presentation on Computer Vision for Historians (<a href="https://drive.google.com/file/d/1vw1TrO8NCL-Dj5ruEBZ4xFAtJvuaPwFA/view?usp=sharing">slides</a>, <a href="https://iamaha.sciencesconf.org/"> website</a>)</li>
-                <li>  Machine Learning for Geometry workshop, Oct. 26th, 2023, Paris, France. Invited presentation on 3D analysis-by-synthesis (<a href="https://drive.google.com/file/d/1k95tGPrkyYnEVT7jZsfvQ4ChOcjUr_rn/view?usp=sharing">slides</a>, <a href="https://ml4geo.sciencesconf.org/"> website</a>)</li>
-            </ul>
-
+                <p>  Past Post-doc: <a href="https://perso.telecom-paristech.fr/gonthier/fr/" target="_blank">Nicolas Gonthier</a> (now IPEF working at  <a href="https://www.umr-lastig.fr/" target="_blank">IGN</a>)  </p>
+                <!-- </div> -->
                 </p>
+            </td>
+        </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+                <a class="anchor-point" id="pub"></a>
+                <heading>Publications</heading>
+                <p>
+                    Representative papers are <span class="highlight">highlighted</span>.
+                </p>
+            </td>
+        </tr>
+        </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr>
+
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2024-eida.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Historical Astronomical Diagrams Decomposition in Geometric Primitives</papertitle>
+                <br>S. Kalleli, S. Trigg, S. Albouy, M. Husson, M Aubry
+                <br> ICDAR 2024
+                <br> <a href="https://arxiv.org/abs/2403.08721" target="_blank">paper</a>
+                | <a href="https://imagine.enpc.fr/~kallelis/icdar2024/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="https://romainloiseau.fr/learnable-earth-parser/images/teaser_h.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Learnable Earth Parser: Discovering 3D Prototypes in Aerial Scans</papertitle>
+                <br>R. Loiseau, E. Vincent, M. Aubry, L. Landrieu
+                <br> CVPR 2024
+                <br> <a href="https://arxiv.org/abs/2304.09704" target="_blank">paper</a>
+                | <a href="https://romainloiseau.fr/learnable-earth-parser/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2023-ltw.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>The Learnable Typewriter A Generative Approach to Text Line Analysis</papertitle>
+                <br>Y. Siglidis, N. Gonthier, J. Gaubil, T. Monnier, M. Aubry
+                <br>ICDAR 2024
+                <br> <a href="https://imagine.enpc.fr/~siglidii/learnable-typewriter/paper.pdf" target="_blank">paper</a>
+                | <a href="https://imagine.enpc.fr/~siglidii/learnable-typewriter/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2023-iamaha.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Abstracts for our VHS and EIDA projects building vision tools for historians</papertitle>
+                <br>Z. S. Baltci, S. Kalleli,  F. Aouinti,  A. Guilbaud, S. Lazaris, S. Trigg, S. Albouy, S. Gessner, M. Husson, M. Aubry, presented at <a href="https://iamaha.sciencesconf.org/" target="_blank">IAMAHA</a> 2023
+                <br> <a href="http://imagine.enpc.fr/~baltacis/illustrationExtraction" target="_blank">VHS</a>
+                | <a href="https://imagine.enpc.fr/~kallelis/iamaha2023/" target="_blank"> EIDA </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2023-dbw.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Differentiable Blocks World: Qualitative 3D Decomposition by Rendering Primitives</papertitle>
+                <br>T. Monnier, J. Austin, A. Kanazawa, A. Efros, M. Aubry
+                <br>NeurIPS 2023
+                <br> <a href="https://arxiv.org/abs/2307.05473" target="_blank">paper</a>
+                | <a href="https://www.tmonnier.com/DBW/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="http://imagine.enpc.fr/~vincente/assets/images/agriitsc_teaser.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Pixel-wise Agricultural Image Time Series Classification: Comparisons and a Deformable
+                    Prototype-based Approach
+                </papertitle>
+                <br> E. Vincent, J. Ponce, M. Aubry
+                <br> ArXiv 2023
+                <br> <a href="https://arxiv.org/abs/2303.12533" target="_blank">paper</a>
+                | <a href="https://imagine.enpc.fr/~vincente/agriitsc" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2023-megapose.jpeg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>MegaPose: 6D Pose Estimation of Novel Objects via Render & Compare</papertitle>
+                <br>Y. Labb&eacute;, L. Manuelli, A. Mousavian, S. Tyree, S. Birchfield, J. Tremblay, J. Carpentier, M. Aubry,
+                D. Fox, J. Sivic
+                <br>CoRL 2022
+                <br> <a href="https://openreview.net/forum?id=1zbWQxFIU-" target="_blank">paper</a>
+                | <a href="https://megapose6d.github.io/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2022-audio.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>A Model You Can Hear: Audio Classification with Playable Prototypes</papertitle>
+                <br>R. Loiseau, B. Bouvier, Y. Teytaut, E. Vincent, M. Aubry, L. Landrieu
+                <br>ISMIR 2022, CVPRw 2022
+                <br> <a href="https://arxiv.org/abs/2208.03311" target="_blank">paper</a>
+                | <a href="https://romainloiseau.fr/a-model-you-can-hear/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2022-unicorn.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Share With Thy Neighbors: Single-View Reconstruction by Cross-Instance Consistency</papertitle>
+                <br>T. Monnier, M. Fisher, A. Efros, M. Aubry
+                <br>ECCV 2022
+                <br> <a href="https://arxiv.org/abs/2204.10310" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~monniert/UNICORN/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2022-helixNet.jpeg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Online Segmentation of LiDAR Sequences: Dataset and Algorithm</papertitle>
+                <br> R. Loiseau, M. Aubry, L. Landrieu
+                <br>ECCV 2022
+                <br> <a href="https://arxiv.org/abs/2206.08194" target="_blank">paper</a>
+                | <a href="https://romainloiseau.fr/helixnet/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2022-an3.jpeg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Learning joint surface atlases</papertitle>
+                <br>T. Deprelle, T. Groueix, N. Aigerman, V. Kim, M. Aubry
+                <br>ArXiv 2022
+                <br> <a href="https://arxiv.org/abs/2206.06273" target="_blank">paper</a>
+                | <a href="https://arxiv.org/abs/2206.06273" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2022-neuralwarp.jpeg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> NeuralWarp: Improving neural implicit surfaces geometry with patch warping</papertitle>
+                <br>F. Darmon, B. Bascle, J.-C. Devaux, P. Monasse, M. Aubry
+                <br>CVPR 2022
+                <br> <a href="https://arxiv.org/abs/2112.09648" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~darmonf/NeuralWarp/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2022-focal.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Focal Length and Object Pose Estimation via Render and Compare</papertitle>
+                <br> G. Ponimatkin, Labb&eacute;, B. Russell, M. Aubry, J. Sivic
+                <br>CVPR 2022
+                <br> <a href="https://arxiv.org/abs/2204.05145" target="_blank">paper</a>
+                | <a href="https://ponimatkin.github.io/focalpose/index.html" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2022-history.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Spatially-consistent Feature Matching and Learning for Heritage Image Analysis</papertitle>
+                <br> X. Shen, R. Champenois, S. Ginosar, I. Pastrolin, M. Rousselot, O. Bounou, T. Monnier, S. Gidaris, F.
+                Bougard, P.-G. Raverdy, M.-F. Limon, C. Bénévent, M. Smith, O. Poncet, K. Bender, B. Joyeux-Prunel, E. Honig, A.
+                Efros, M. Aubry
+                <br>IJCV 2022
+                <br> <a href="https://hal.archives-ouvertes.fr/hal-03620996" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~shenx/HisImgAnalysis/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2021-reranking.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Re-ranking for image retrieval and transductive few-shot classification</papertitle>
+                <br> X. Shen, Y. Xiao, S. Hu, O. Sbai, M. Aubry
+                <br>NeurIPS 2021
+                <br> <a href="https://papers.nips.cc/paper/2021/file/d9fc0cdb67638d50f411432d0d41d0ba-Paper.pdf" target="_blank">paper</a>
+                | <a href="https://imagine.enpc.fr/~shenx/SSR/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2021-SegSwap.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Learning Co-segmentation by Segment Swapping for Retrieval and Discovery</papertitle>
+                <br> X. Shen, A. Efros, A. Joulin, M. Aubry
+                <br>ArXiv 2021, CVPR 2022 workshops
+                <br> <a href="http://imagine.enpc.fr/~shenx/SegSwap/segswap.pdf" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~shenx/SegSwap/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2021-dti3d.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Representing Shape Collections with Alignment-Aware Linear Models</papertitle>
+                <br>R. Loiseau, T. Monnier, M. Aubry, L. Landrieu
+                <br>3DV 2021
+                <br> <a href="https://arxiv.org/abs/2109.01605" target="_blank">paper</a>
+                | <a href="https://romainloiseau.github.io/deep-linear-shapes/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="http://imagine.enpc.fr/~monniert/resrc/dti-sprites.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Unsupervised Layered Image Decomposition into Object Prototypes</papertitle>
+                <br>T. Monnier, E. Vincent, J. Ponce, M. Aubry
+                <br>ICCV 2021
+                <br> <a href="https://arxiv.org/abs/2104.14575" target="_blank">paper</a>
+                | <a href="https://imagine.enpc.fr/~monniert/DTI-Sprites/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2021-collation.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Image Collation: Matching illustrations in manuscripts</papertitle>
+                <br>R. Kaoua, X. Shen, A. Durr, S. Lazaris, D. Picard, M. Aubry
+                <br>ICDAR 2021
+                <br> <a href="http://imagine.enpc.fr/~shenx/ImageCollation/ICDAR2021_ImageCollation_Paper.pdf"
+                        target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~shenx/ImageCollation/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2021-wildstereo.jpeg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Deep Multi-View Stereo gone wild</papertitle>
+                <br>F. Darmon, B. Bascle, J.-C. Devaux, P. Monasse, M. Aubry
+                <br>3DV 2021
+                <br> <a href="https://arxiv.org/abs/2104.15119" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~darmonf/wild_deep_mvs/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2021-robopose.jpeg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Single-view robot pose and joint angle estimation via render & compare</papertitle>
+                <br>Y. Labb&eacute;, J. Carpentier, M. Aubry, J. Sivic
+                <br>CVPR 2021
+                <br> <a href="https://arxiv.org/abs/2104.09359" target="_blank">paper</a>
+                | <a href="https://www.di.ens.fr/willow/research/robopose/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="http://imagine.enpc.fr/~darmonf/learning_to_guide/teaser.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Learning to Guide Local Feature Matches</papertitle>
+                <br>F. Darmon, M. Aubry , P. Monasse
+                <br>3DV 2020
+                <br> <a href="https://arxiv.org/abs/2010.10959" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~darmonf/learning_to_guide/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="http://imagine.enpc.fr/~roburins/spherical_persp/img/overview_a.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Spherical Perspective on Learning with Batch Norm</papertitle>
+                <br>S. Roburin, Y.de Mont-Marin, A. Bursuc, R.Marlet, P. Perez, M. Aubry
+                <br>ArXiv 2020, Neurocomputing 2022
+                <br> <a href="https://arxiv.org/abs/2006.13382" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~roburins/spherical_persp/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2020-DTI.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Deep Transformation-Invariant Clustering</papertitle>
+                <br>T. Monnier, T. Groueix, M. Aubry
+                <br>NeurIPS 2020
+                <br> <a href="https://arxiv.org/abs/2006.11132" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~monniert/DTIClustering/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2020-docextractor.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>docExtractor: An off-the-shelf historical document element extraction</papertitle>
+                <br>T. Monnier, M. Aubry
+                <br>ICFHR 2020
+                <br> <a href="http://imagine.enpc.fr/~monniert/docExtractor/docExtractor.pdf" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~monniert/docExtractor/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2020-6d.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>CosyPose: Consistent multi-view multi-object 6D pose estimation</papertitle>
+                <br>Y. Labb&eacute;, J. Carpentier, M. Aubry, J. Sivic
+                <br>ECCV 2020
+                <br> <a href="https://arxiv.org/abs/2008.08465" target="_blank">paper</a>
+                | <a href="https://www.di.ens.fr/willow/research/cosypose/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2020-dataset.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Impact of base dataset design on few-shot image classification</papertitle>
+                <br>O. Sbai, C. Couprie, M. Aubry
+                <br>ECCV 2020
+                <br> <a href="https://arxiv.org/abs/2007.08872" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~sbaio/fewshot_dataset_design" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2020-RANSACFlow.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>RANSAC-Flow: generic two-stage image alignment</papertitle>
+                <br>X. Shen, F. Darmon, A. Efros, M. Aubry
+                <br>ECCV 2020
+                <br> <a href="http://imagine.enpc.fr/~shenx/RANSAC-Flow/RANSAC_Flow.pdf" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~shenx/RANSAC-Flow/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2020-MCTS.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Monte-Carlo Tree Search for Efficient Visually Guided Rearrangement Planning</papertitle>
+                <br>Y. Labb&eacute;, S. Zagoruyko, I. Kalevatykh, I. Laptev, J. Carpentier, M. Aubry, J. Sivic
+                <br>RAL 2020
+                <br> <a href="https://arxiv.org/abs/1904.10348" target="_blank">paper</a>
+                | <a href="https://ylabbe.github.io/rearrangement-planning/index.html" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2019-watermark.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Large-Scale Historical Watermark Recognition:dataset and a new consistency-based approach
+                </papertitle>
+                <br>X. Shen, I. Pastrolin, O. Bounou, S. Gidaris, M. Smith, O. Poncet, M. Aubry
+                <br>ICPR 2020
+                <br> <a href="http://imagine.enpc.fr/~shenx/Watermark/watermarkReco.pdf" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~shenx/Watermark/" target="_blank"> project page </a>
+                | <a href="https://filigranes.inria.fr/" target="_blank"> Web App </a>
+                | <a href="https://hal.archives-ouvertes.fr/hal-02513038/" target="_blank">paper on Web App</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2019-bilinear.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Bilinear image translation for temporal analysis of photo collections</papertitle>
+                <br>T. Dalens, M. Aubry, J. Sivic
+                <br>TPAMI 2019
+                <br> <a href="https://hal.inria.fr/hal-02452091/document" target="_blank">paper</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2019-an2.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Learning elementary structures for 3D shape generation and matching</papertitle>
+                <br>T. Deprelle, T. Groueix, M. Fisher, V. G. Kim, B. C. Russell, M. Aubry
+                <br>NeurIPS 2019
+                <br> <a href="https://arxiv.org/pdf/1908.04725.pdf" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~deprellt/atlasnet2/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2019-sbai.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Unsupervised Image Decomposition in Vector Layers</papertitle>
+                <br>O. Sbai, C. Couprie, M. Aubry
+                <br>ArXiv 2019 / ICIP 2020
+                <br> <a href="https://arxiv.org/abs/1812.05484" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~sbaio/pix2vec/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="http://imagine.enpc.fr/~xiaoy/PoseFromShape/img/overview_a.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Deep Pose Estimation for Arbitrary 3D Objects</papertitle>
+                <br>Y. Xiao, X. Qiu, P-A Langlois M. Aubry, R. Marlet
+                <br>BMVC 2019
+                <br> <a href="https://arxiv.org/abs/1906.05105" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~xiaoy/PoseFromShape/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="http://imagine.enpc.fr/~groueixt/sgp/sgp/teaser.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Unsupervised cycle-consistent deformation for shape matching</papertitle>
+                <br>T. Groueix, M. Fisher, V. G. Kim, B. C. Russell, M. Aubry
+                <br>SGP 2019
+                <br> <a href="https://arxiv.org/abs/1907.03165" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~groueixt/sgp/index.html" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="im_container">
+                    <img src="img/thumbnail-2019-artminer.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Discovering Visual Patterns in Art Collections with Spatially-consistent Feature
+                    Learning
+                </papertitle>
+                </a>
+                <br>X. Shen, A. Efros, M. Aubry
+                <br>CVPR 2019
+                <br><a href="http://imagine.enpc.fr/~shenx/ArtMiner/artMiner2019CVPR.pdf" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~shenx/ArtMiner/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2018-3dcoded.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>3D-CODED : 3D Correspondences by Deep Deformation</papertitle>
+                </a>
+                <br>T. Groueix, M. Fisher, V. G. Kim, B. C. Russell, M. Aubry
+                <br>ECCV 2018
+                <br><a href="https://arxiv.org/pdf/1806.05228" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~groueixt/3D-CODED/index.html" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2018-unreal.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Virtual Training for a Real Application: Accurate Object-Robot Relative Localization without
+                    Calibration
+                </papertitle>
+                </a>
+                <br>V. Loing, R. Marlet, M. Aubry
+                <br>IJCV 2018
+                <br><a href="http://imagine.enpc.fr/~loingvi/unloc/" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~loingvi/unloc/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2018-atlas.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>AtlasNet: A Papier-M&#226;ch&#233; Approach to Learning Surface Generation</papertitle>
+                </a>
+                <br>T. Groueix, M. Fisher, V. G. Kim, B. C. Russell, M. Aubry
+                <br>CVPR 2018
+                <br><a href="https://arxiv.org/pdf/1802.05384.pdf" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~groueixt/atlasnet/index.html" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2017-sketch.png" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>3D Sketching using Multi-View Deep Volumetric Prediction</papertitle>
+                </a>
+                <br>J. Delanoy, M. Aubry, P. Isola, A. Efros, A. Bousseau
+                <br>I3D 2018
+                <br><a href="https://arxiv.org/pdf/1707.08390.pdf" target="_blank">paper</a>
+                | <a href="https://ns.inria.fr/d3/3DSketching/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2016-pose.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Crafting a multi-task CNN for viewpoint estimation</papertitle>
+                </a>
+                <br>F. Massa, R. Marlet and M. Aubry
+                <br>BMVC 2016
+                <br><a href="http://arxiv.org/abs/1609.03894" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~suzano-f/bmvc2016-pose/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2016-car.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Automatic 3D Car Model Alignment for Mixed Image-Based Rendering</papertitle>
+                </a>
+                <br>R. Ortiz-Cayon, A. Djelouah, F. Massa, M. Aubry, G. Drettakis
+                <br>3DV 2016
+                <br><a href="http://www-sop.inria.fr/reves/Basilic/2016/ODMAD16/final_mixedIBR.pdf"
+                               target="_blank">paper</a>
+                | <a href="http://www-sop.inria.fr/reves/Basilic/2016/ODMAD16/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2016-adapt.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Deep Exemplar 2D-3D Detection by Adapting from Real to Rendered Views</papertitle>
+                </a>
+                <br>F. Massa, B. Russell and M. Aubry
+                <br>CVPR 2016
+                <br><a href="http://arxiv.org/abs/1512.02497" target="_blank">paper</a>
+                | <a href="http://imagine.enpc.fr/~suzano-f/exemplar-cnn/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2016-cycle.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Learning Dense Correspondence via 3D-guided Cycle Consistency</papertitle>
+                </a>
+                <br>T. Zhou, P. Kr&auml;henb&uuml;hland, M. Aubry, Q. Huang, and A. Efros
+                <br>CVPR, 2016
+                <br><a href="http://www.eecs.berkeley.edu/~tinghuiz/papers/cvpr16_cycle.pdf" target="_blank">paper</a>
+                | <a href="http://www.eecs.berkeley.edu/~tinghuiz/projects/learnCycle/" target="_blank"> project
+                page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2016-dexnet.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Dex-Net 1.0: A Cloud-Based Network of 3D Objects for Robust Grasp Planning Using a
+                    Multi-Armed Bandit Model with Correlated Rewards
+                </papertitle>
+                </a>
+                <br>J. Mahler, F. Pokorny, B. Hou, M. Roderick, M. Laskey, M. Aubry, K. Kohlhoff, T. Kroeger, J.
+                Kuffner, K. Goldberg
+                <br>ICRA, 2016
+                <br><a href="http://goldberg.berkeley.edu/pubs/icra16-submitted-Dex-Net.pdf" target="_blank">paper</a>
+                <!--	|<a href="projects/features_analysis"target="_blank"> project page </a>-->
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2015-feature-analysis.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Understanding deep features with computer-generated imagery</papertitle>
+                </a>
+                <br>M. Aubry and B. Russell
+                <br>ICCV, 2015
+                <br><a href="projects/features_analysis/texts/understanding_deep_features_with_CG.pdf" target="_blank">paper </a>
+                | <a href="projects/features_analysis" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2015-geoloc.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Visual geo-localization of non-photographic depictions via 2D-3D alignment</papertitle>
+                </a>
+                <br>M. Aubry, B. Russell and J. Sivic
+                <br>Springer book chapter on Visual Analysis and Geo-Localization of Large Scale Imagery, 2015
+                <br><a href="https://hal.archives-ouvertes.fr/hal-01119203" target="_blank">paper</a>
+                </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="http://www.di.ens.fr/willow/research/anisotropy/img/thumbnail-2014-anisotropy.jpg"
+                     class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle> Anisotropic Laplace-Beltrami Operators for Shape Analysis</papertitle>
+                </a>
+                <br>M. Andreux, E. Rodolà, M. Aubry, and D. Cremers
+                <br> Workshop on Non-Rigid Shape Analysis and Deformable Image Alignment (NORDIA), 2014
+                <br> <a href="http://www.di.ens.fr/willow/research/anisotropy/texts/andreux-nordia14.pdf" target="_blank">paper</a>
+                | <a href="http://www.di.ens.fr/willow/research/anisotropy/" target="_blank"> project page </a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2014-Chairs.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Seeing 3D chairs: exemplar part-based 2D-3D alignment using a large dataset of CAD models
+                </papertitle>
+                </a>
+                <br>M. Aubry, D. Maturana, A. Efros, B. Russell and J. Sivic
+                <br>CVPR, 2014
+                <br><a href="http://www.di.ens.fr/willow/research/seeing3Dchairs/texts/Aubry14.pdf"
+                   target="_blank">paper</a> | <a href="http://www.di.ens.fr/willow/research/seeing3Dchairs/" target=
+                    "_blank">project page</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2013-Paintings.jpg" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Painting-to-3D Model Alignment Via Discriminative Visual Elements</papertitle>
+                </a>
+                <br>M. Aubry, B. Russell and J. Sivic
+                <br>ACM Transactions on Graphics, 2014 (presented at SIGGRAPH 2014)
+                <br><a href="http://www.di.ens.fr/willow/research/painting_to_3d/texts/Aubry13.pdf"
+                   target="_blank">paper</a> | <a href="http://www.di.ens.fr/willow/research/painting_to_3d/" target=
+                    "_blank">project page</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2011-pyramid.jpg" alt=
+                        "Fast and Robust Pyramid-based Image Processing thumbnail" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Fast Local Laplacian Filters: Theory and Applications</papertitle>
+                </a>
+                <br>M. Aubry, S. Paris, S. Hasinoff, J. Kautz, F.
+                Durand
+                <br>ACM Transactions on Graphics, 2014 (presented at SIGGRAPH 2014)
+                <br><a href="projects/llf/texts/2014-fast-laplacian-filter.pdf" target="_blank">paper</a>
+                | <a href="projects/llf/index.html" target=
+                    "_blank">project page</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2014-Super-resolution.png" alt=
+                        "A Super-resolution Framework for High-Accuracy Multiview Reconstruction" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>A Super-resolution Framework for High-Accuracy Multiview Reconstruction</papertitle>
+                </a>
+                <br>B. Goldluecke, M. Aubry, K. Kolev, D. Cremers<br>IJCV 2014
+                <br><a href="text/2014-super-resolution.pdf" target="_blank">paper</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2011-dense-variational-camera-calibration.png" alt=
+                        "Decoupling Photometry and Geometry in Dense
+Variational Camera Calibration thumbnail" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Decoupling Photometry and Geometry in Dense
+                    Variational Camera Calibration
+                </papertitle>
+                </a>
+                <br>M. Aubry, K. Kolev, B. Goldluecke, D. Cremers
+                <br>ICCV 2011
+                <br><a href="text/2011-dense-variational-camera-calibration.pdf" target=
+                    "_blank">paper</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2011-3D-shape-segmentation.png" alt="Pose-Consistent 3D Shape Segmentation Based on a
+Quantum Mechanical Feature Descriptor thumbnail"
+                     class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>Pose-Consistent 3D Shape Segmentation Based on a
+                    Quantum Mechanical Feature Descriptor
+                </papertitle>
+                </a>
+                <br>M. Aubry, U. Schlickewei, D. Cremers
+                <br>Pattern Recognition (Proc. DAGM), Springer, 2011
+                <br> <a href="projects/wks/texts/2011-3D-shape-segmentation.pdf" target="_blank">paper</a>
+                | <a href="projects/wks/index.html" target="_blank">project page</a>
+                <p></p>
+            </td>
+        </tr>
+
+        <tr class="highlight">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+                <img src="img/thumbnail-2011-wave-kernel-signature.png"
+                     alt="The Wave Kernel Signature: A Quantum Mechanical
+Approach To Shape Analysis thumbnail" class="thumb">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>The Wave Kernel Signature: A Quantum Mechanical
+                    Approach To Shape Analysis
+                </papertitle>
+                </a>
+                <br>M. Aubry, U. Schlickewei, D. Cremers
+                <br> ICCV workshop on Dynamic Shape Capture and Analysis (4DMOD) 2011
+                <br> <a href="projects/wks/texts/2011-wave-kernel-signature.pdf" target="_blank">paper</a>
+                | <a href="projects/wks/index.html" target="_blank">project page</a>
+                <p></p>
+            </td>
+        </tr>
+
+
+        </tbody></table>
+
+
+
+
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+                <a class="anchor-point" id="teaching"></a>
+                <heading>Teaching</heading>
+                <p>
+
+                <ul>
+                    <li>ENPC <a href="https://educnet.enpc.fr/course/view.php?id=1467" target="_blank"> Deep Learning</a> (M1/M2, since 2021)</li>
+                    <li>MVA <a href="http://imagine.enpc.fr/~monasse/Stereo/" target="_blank">3D reconstruction</a>, <a href="https://www.di.ens.fr/willow/teaching/recvis17/" target="_blank">Object Recognition</a> and Deep Learning (M2, one lecture in each)</li>
+                    <!-- <li>ENPC <a href="https://educnet.enpc.fr/course/view.php?id=969" target="_blank"> Information Processing and Computer Vision</a> and <a href="https://educnet.enpc.fr/course/view.php?id=968" target="_blank"> Machine Learning</a> (M1, a few lectures in each)</li> -->
+                    <li>ENS <a href="http://imagine.enpc.fr/~aubrym/lectures/introvis19/" target="_blank">Introduction to Computer Vision</a> (M1/M2, 2017-2022)</li>
+                    <li>ENPC <a href="https://educnet.enpc.fr/course/view.php?id=979" target="_blank"> Computer Vision for Mechanics of materials</a> (L3, 2015-2021)</li>
+                </ul>
+                </p>
+            </td>
+        </tr>
+        </tbody></table>
+
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <tr>
+            <td>
+                <a class="anchor-point" id="opinions"></a>
+                <heading>Opinions</heading>
+                <p>
+                    The following links are a random collection of personal opinions, but you might want to have a look if you are interested in working with me, or are just curious. Note I am not an expert on any of these topics, feel free to send feedback or suggestions.
+                <ul>
+                    <li> <a href="text/PhD.html" target="_blank"> PhD life in my group </a>
+                    <li> <a href="text/sustainability.html" target="_blank"> Sustainability, ecological crisis (and research)</a>
+                    <li> <a href="text/academia.html" target="_blank"> Why should you go to academia? </a>
+                    <li> <a href="text/domination.html" target="_blank"> Domination, diversity, inclusion (and research)</a>
+                    <li> More to come, including the way I see/try to do research. Feel free to suggest more.
+<!--                <li> <a href="" target="_blank"> Slow research and research organization</a>-->
+                </ul>
+                </p>
+            </td>
+        </tr>
+        </tbody></table>
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <tr>
+            <td>
+                <heading>Projects</heading>
+                <p>
+                   <ul>
+                    <li> 2015-2019: RAPID Tabasco project on low-supervision deep learning
+                    <li> 2017-2018: France-Berkeley-Fund grant on Enhancing Heritage Image Databases</a>
+                    <li> 2018-2021: CIFRE PhD with Camille Couprie at Facebook AI Research
+                    <li> 2018-2022: <a href="https://enherit.enpc.fr/" target="_blank"> ANR JCJC EnHerit project </a> on enhancing heritage image databases
+                    <li> 2019-2022: CIFRE PhD with Patrick Perez and Renaud Marlet at Valeo AI
+                    <li> 2021-2025: <a href="https://vhs.hypotheses.org/" target="_blank">ANR VHS project </a> on historical scientific illustrations
+                    <li> 2022-2026: <a href="https://eida.hypotheses.org/" target="_blank">ANR EIDA project</a> on historical astronomical diagrams
+                    <li> 2023-2028: <a href="">ERC starting grant DISCOVER </a> on visual structures discovery
+<!--                    <li> <a href="" target="_blank"></a>-->
+                </ul>
+            </td>
+        </tr>
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <tr>
+            <td>
+                <heading>Contact</heading>
+                <p>
+                    IMAGINE/LIGM <br />
+                    &Eacute;cole des Ponts ParisTech<br />
+                    6-8, Av Blaise Pascal - Cit&eacute; Descartes<br />
+                    Champs-sur-Marne<br />
+                    77455 Marne-la-Vall&eacute;e cedex 2 </p>
+
+                <p>email: <span class="subdued_text">mathieu [dot] aubry [at] imagine [dot] enpc [dot] fr </span><br />
+                    phone: +33 (0)1 64 15 21 74
+                </p>
+            </td>
+        </tr>
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <tr>
+            <td>
+                <p style="text-align:center">
+                    <a href="#top">Top</a> &nbsp/&nbsp
+                    <a href="https://imagine-lab.enpc.fr/" target="_blank">Imagine</a> &nbsp/&nbsp
+                    <a href="mailto:mathieu.aubry.2006@polytechnique.org">Email</a> &nbsp/&nbsp
+                    <a href="text/CV_Aubry_Mathieu.pdf" target="_blank">CV</a> &nbsp/&nbsp
+                    <a href="text/MathieuAubry-bio.txt" target="_blank">Bio</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.fr/citations?user=0MiPsosAAAAJ&hl=fr">Google Scholar</a>
+                </p>
+            </td>
+        </tr>
+        </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
